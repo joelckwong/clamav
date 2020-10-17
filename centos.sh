@@ -12,3 +12,4 @@ sudo freshclam
 sudo systemctl start clamd@scan
 sudo systemctl enable clamd@scan
 sudo systemctl status clamd@scan
+sudo clamdscan -v --fdpass /tmp
